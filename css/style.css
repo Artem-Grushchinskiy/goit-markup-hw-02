@@ -1,0 +1,189 @@
+
+:root {
+  --color-accent: #2196f3 --color-special-light: #FFFFFF --main-bg-color: #2F303A --second-title-color: #212121 --main-text-color: #757575 --main-font-size: 14px --font-weight-700: 700
+}
+.uni-accent:is(:hover, :focus) {
+  color: #2196f3
+}
+.uni-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.uni-work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.uni-button-portfolio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: #F5F4FA;
+  color: #212121;
+}
+body {
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--main-font-size);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ---------------------all new portfolio-------------------------------------- */
+
+.logo,
+.logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #2196f3
+}
+.logo>span {
+  color: black;
+}
+.header-list {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-link {
+  text-decoration: none;
+  list-style: none;
+  color: #212121;
+}
+.contacts {
+  cursor: pointer;
+  color: #757575;
+  list-style: none;
+  text-decoration: none;
+}
+.gallery-button-list {
+  list-style: none;
+  text-decoration: none;
+}
+.btn:is(:hover, :focus) {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+.gallery-list-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.00;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.gallery-list-filrt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* --------------------------index------------------------------------ */
+
+.hero {
+  background: #2F303A;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background: #2196F3;
+}
+.features-list-item {
+  list-style: none;
+  text-decoration: none;
+}
+.features-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121
+}
+.features-list-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.wtf-list {
+  list-style: none;
+  text-decoration: none;
+}
+.team {
+  background: #F5F4FA;
+}
+.team-list {
+  text-decoration: none;
+  list-style: none;
+}
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-prof {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  text-decoration: none;
+  background: #2F303A;
+}
+.logo-footer>span {
+color: #FFFFFF
+}
+.footer-maps {
+  list-style: none;
+  text-decoration: none;
+  color: #FFFFFF
+}
+.footer-list {
+  list-style: none;
+  font-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-email,
+.contacts-number:is(:hover, :focus) {
+    color: #2196f3
+}
