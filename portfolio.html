@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Webstudio</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -23,67 +23,63 @@
   </head>
 
   <body>
-    <!-- header -->
+    <!--------------------------------- header -->
     <header class="header">
       <nav class="header-nav">
-        <a href="index.html" class="logo">Web<span>Studio</span></a>
+        <a href="index.html" class="logo"
+          >Web<span class="logo-text">Studio</span></a
+        >
         <ul class="header-list">
-          <li><a href="/" class="nav-link uni-accent">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="nav-link uni-accent">Portfolio</a>
+          <li class="header-item">
+            <a href="./index.html" class="nav-link">Studio</a>
           </li>
-          <li>
-            <a href="/" class="nav-link uni-accent">Contacts</a>
+          <li class="header-item">
+            <a href="./portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a href="./index.html" class="nav-link">Contacts</a>
           </li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li>
-          <a href="tel:+380961111111" class="contacts-item uni-accent"
-            >+38 096 111 11 11</a
-          >
-        </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts-item uni-accent"
-            >info@-devstudio.com</a
-          >
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section class="main-content-section">
-        <!-- buttons -->
-        <h1 class="main-content-title uni-work-title">our works</h1>
-        <ul class="gallery-button-list">
-          <li>
-            <button type="button" class="btn uni-button-portfolio uni-accent">
-              All
-            </button>
+      <address>
+        <ul class="contacts">
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-link"
+              >+38 096 111 11 11</a
+            >
           </li>
-          <li>
-            <button type="button" class="btn uni-button-portfolio uni-accent">
-              Web Site
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn uni-button-portfolio uni-accent">
-              App
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn uni-button-portfolio uni-accent">
-              Design
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn uni-button-portfolio uni-accent">
-              Marketing
-            </button>
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link"
+              >info@-devstudio.com</a
+            >
           </li>
         </ul>
-        <!-- gallery -->
-        <ul class="gallery gallery-button-list">
-          <li class="gallery-list">
+      </address>
+    </header>
+    <main>
+      <section class="portfolio">
+        <!-- buttons -->
+        <h1 hidden>our works</h1>
+        <ul class="filter-list">
+          <li class="filter-item">
+            <button type="button" class="filter-btn">All</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="filter-btn">Web Site</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="filter-btn">App</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="filter-btn">Design</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="filter-btn">Marketing</button>
+          </li>
+        </ul>
+        <!--------------------------------- gallery -->
+        <ul class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/banking-app.jpg"
@@ -91,16 +87,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Banking App Interface Concept</h2>
+              <h2 class="gallery-title">Banking App Interface Concept</h2>
               <p class="gallery-list-filrt">App</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Cashless-Payment.jpg"
@@ -108,16 +99,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Cashless Payment</h2>
+              <h2 class="gallery-title">Cashless Payment</h2>
               <p class="gallery-list-filrt">Marketing</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Meditaion-App.jpg"
@@ -125,16 +111,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Meditaion App</h2>
+              <h2 class="gallery-title">Meditaion App</h2>
               <p class="gallery-list-filrt">App</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Taxi-Service.jpg"
@@ -142,16 +123,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Taxi Service</h2>
+              <h2 class="gallery-title">Taxi Service</h2>
               <p class="gallery-list-filrt">Marketing</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Screen-Illustrations.jpg"
@@ -159,16 +135,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Screen Illustrations</h2>
+              <h2 class="gallery-title">Screen Illustrations</h2>
               <p class="gallery-list-filrt">Design</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Online-Courses.jpg"
@@ -176,16 +147,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Online Courses</h2>
+              <h2 class="gallery-title">Online Courses</h2>
               <p class="gallery-list-filrt">Marketing</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Instagram-Concept.jpg"
@@ -193,16 +159,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Instagram Stories Concept</h2>
+              <h2 class="gallery-title">Instagram Stories Concept</h2>
               <p class="gallery-list-filrt">Design</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Organic-food.jpg"
@@ -210,16 +171,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Organic Food</h2>
+              <h2 class="gallery-title">Organic Food</h2>
               <p class="gallery-list-filrt">Web Site</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
-          <li class="gallery-list">
+          <li class="gallery-item">
             <a
               ><img
                 src="./img/Fresh-Coffee.jpg"
@@ -227,13 +183,8 @@
                 width="370"
                 height="294"
               />
-              <h2 class="gallery-list-title">Fresh Coffee</h2>
+              <h2 class="gallery-title">Fresh Coffee</h2>
               <p class="gallery-list-filrt">Web Site</p>
-              <p class="gallery-secondary-text">
-                14 Stylish and User-Friendly App Design Concepts · Task Manager
-                App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                Storage App
-              </p>
             </a>
           </li>
         </ul>
